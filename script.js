@@ -80,6 +80,7 @@ setInterval(() => {
 }
 }, 100);
 
+//Adicionar no console do jogo dino sem /*
 /* const s = document.createElement('script');
 s.type = 'module';
 s.scr = 'http://localhost:5500/script.js';
