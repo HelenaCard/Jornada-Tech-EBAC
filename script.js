@@ -1,11 +1,11 @@
-import utils from './utils.js'
-import RNA from './RNA.js'
-import controls from './controls.js'
+import utils from './utils.js';
+import RNA from './RNA.js';
+import controls from './controls.js';
 
 const SAMPLE = 20
 const game = Runner.instance_;
 let dinoList = []
-let diniList = 0
+let dinoIndex = 0
 
 let bestScore = 0;
 let bestRNA = null;
@@ -80,7 +80,7 @@ setInterval(() => {
 }
 }, 100);
 
-/* const s = document.createElement('script5');
+/* const s = document.createElement('script');
 s.type = 'module';
 s.scr = 'http://localhost:5500/script.js';
 document.body.appendChild(s); */
